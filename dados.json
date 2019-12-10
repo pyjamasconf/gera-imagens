@@ -1,0 +1,14 @@
+{
+    "talks": [
+        {
+            "title": "ScanAPI: Automatização de Testes de Integração para a sua API",
+            "description": "A ScanAPI é uma biblioteca de código aberto que possibilita a criação de testes de integração para REST APIs. Através de um arquivo de configuração yaml, você consegue implementar testes automatizados para os endpoints da sua API. A biblioteca gera um relatório da execução dos testes que também pode ser utilizado como a própria documentação da API, A biblioteca ainda está em fase de desenvolvimento. Essa palestra visa mostrar um pouco do funcionamento da ScanAPI, discutir os próximos passos a serem implementados e também divulgar a ferramenta para quem possa ter interesse, seja para sua utilização ou contribuição com o projeto. Link do projeto: https://github.com/camilamaia/scanapi",
+            "speaker": "Camila Maia",
+            "email": "cmaiacd@gmail.com",
+            "datetime": "2019-12-02T16:40:00.000",
+            "duration": 14400,
+            "embed_link": "https://www.youtube.com/embed/3bIw6294Skk",
+            "link": "https://www.youtube.com/watch?v=3bIw6294Skk"
+        }
+    ]
+}
