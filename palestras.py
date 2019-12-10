@@ -9,8 +9,14 @@ from PIL import Image, ImageDraw, ImageFont
 CSVPATH = "./aprovadas_all.csv"
 JSONPATH = "./aprovadas_all.json"
 COLS = [
-    'Hora', 'Dia', 'Palestra',
-    'Link', 'Palestrante', 'Descrição', 'Email', 'Minutos'
+    "Hora",
+    "Dia",
+    "Palestra",
+    "Link",
+    "Palestrante",
+    "Descrição",
+    "Email",
+    "Minutos",
 ]
 talks = list(csv.DictReader(open(CSVPATH)))
 
@@ -95,10 +101,10 @@ json.dump(
             "datetime": "2019-12-02T16:40:00.000",  # TODO: tranform datetime
             "duration": talk["Minutos"],
             "embed_link": "",
-            "link": talk["Link"]
+            "link": talk["Link"],
         }
         for talk in talks
     ],
     open(JSONPATH, "w", encoding="utf-8"),
-    ensure_ascii=False
+    ensure_ascii=False,
 )
